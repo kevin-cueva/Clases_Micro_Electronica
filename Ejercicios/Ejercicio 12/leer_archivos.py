@@ -25,10 +25,8 @@ lista.sort(reverse=True)
 print(lista)
 del numeros_pares
 
-
 with open ('organizados.txt','w') as f:
-            for i in lista:
-                
+            for i in lista:   
                 f.write(f'{str(i)},')
                     
 
