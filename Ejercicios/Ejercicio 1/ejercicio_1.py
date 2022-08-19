@@ -1,4 +1,5 @@
 
+#Funciones
 def fun1(n:float)->float:
     return n*n
 def fun2(n:float)->float:
